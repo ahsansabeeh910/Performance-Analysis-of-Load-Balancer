@@ -1,0 +1,347 @@
+1 | P a g e 
+ 
+Jaypee Institute of Information Technology 
+Sector 62 
+ 
+ 
+ 
+Performance Engineering Lab [17M15CS122] 
+Project Synopsis 
+Title: “Performance Analysis of Load Balancers” 
+Submitted To:- 
+Dr. Shikha Jain 
+Associate Professor , Dept. Of CSE 
+JIIT SECTOR 62,NOIDA 
+ 
+ 
+
+2 | P a g e 
+ 
+TEAM MEMBERS 
+ 
+ 
+Name 
+Enrollment No. 
+Batch 
+SABEEH AHSAN 
+22803006 
+B12 
+HARLEEN KAUR 
+22803009 
+B12 
+ARYAN KHANNA 
+22803028 
+B12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+3 | P a g e 
+ 
+PROJECT OUTLINE 
+ 
+ 
+ 
+ 
+S.NO 
+TITLE 
+PAGE 
+NO 
+1 
+INTRODUCTION 
+4 
+2 
+OBJECTIVES 
+5 
+3 
+WORKFLOW DIAGRAM 
+6 
+4 
+IMPLEMENTATION DETAILS 
+7-8 
+5 
+TOOLS & LIBRARIES USED 
+9 
+6 
+EXPECTED OUTCOMES 
+10 
+7 
+REFERENCES 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+4 | P a g e 
+ 
+INTRODUCTION 
+ 
+As user traffic increases, servers may become overloaded, leading to 
+higher response times and reduced system efficiency. Choosing an 
+appropriate load balancing algorithm is essential for maintaining optimal 
+performance. This project aims to evaluate and compare various load 
+balancing techniques under different workload conditions to determine 
+their effectiveness in improving system performance. 
+ 
+Load balancing is a crucial technique used in modern distributed systems, 
+cloud computing platforms, and web applications to distribute incoming 
+client requests among multiple servers. It helps improve system 
+performance, increase resource utilization, reduce response time, and 
+ensure high availability of services. 
+ 
+Different load balancing algorithms use different strategies to distribute 
+workloads, which directly affects the overall performance of the system. 
+This project focuses on analyzing and comparing the performance of 
+commonly used load balancing algorithms through simulation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+5 | P a g e 
+ 
+OBJECTIVES 
+ 
+We have considered below objectives for our project:  
+ 
+ To understand the concept and importance of load balancing in 
+distributed systems. 
+ To implement and simulate different load balancing algorithms. 
+ To compare the performance of Round Robin, Least Connections, 
+and Weighted Round Robin algorithms. 
+ To evaluate system performance using key performance metrics. 
+ To analyze the effect of increasing workload on server performance. 
+ To identify the most efficient load balancing strategy for different 
+scenarios 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+6 | P a g e 
+ 
+WORKFLOW DIAGRAM 
+ 
+ 
+
+7 | P a g e 
+ 
+Above diagram explains the workflow of the Load Balancer Performance 
+Analysis system. Incoming requests are first received by the load 
+balancer, which selects a scheduling algorithm such as Round Robin, 
+Least Connections, or Weighted Round Robin. Based on the chosen 
+algorithm, the request is assigned to an appropriate server for processing. 
+After the request is completed, performance statistics including response 
+time, throughput, and server utilization are updated. Finally, these metrics 
+are analyzed and combined to generate a comprehensive performance 
+report for comparing the effectiveness of different load balancing 
+algorithms. 
+ 
+IMPLEMENTATION DETAILS 
+The system follows a three-tier cloud architecture consisting of a frontend, 
+backend, and database + cloud storage services. 
+ 
+Step 1: Request Generation 
+Generate client requests at different arrival rates to simulate real-world 
+traffic. 
+ 
+Step 2: Load Balancing 
+Distribute requests among available servers using: 
+ Round Robin 
+ Least Connections 
+ Weighted Round Robin 
+ 
+Step 3: Request Processing 
+Servers process assigned requests with varying service times. 
+ 
+Step 4: Data Collection 
+Record performance statistics during simulation. 
+
+8 | P a g e 
+ 
+ 
+Step 5: Performance Evaluation 
+Analyze and compare results obtained from different algorithms. 
+ 
+Step 6: Visualization 
+Display results using graphs and charts for better comparison. 
+ 
+ 
+ 
+**PERFORMANCE METRICS** 
+ 
+Response Time 
+ 
+The time required to process a request from arrival to completion. 
+ 
+Throughput 
+ 
+The number of requests successfully processed per unit time. 
+ 
+Server Utilization 
+ 
+The percentage of time a server remains busy processing requests. 
+ 
+Load Distribution Efficiency 
+ 
+The effectiveness of workload distribution among servers. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+9 | P a g e 
+ 
+TOOLS & LIBRARIES USED 
+ 
+ Python 3.x – Used to develop and implement the complete 
+simulation system. 
+ SimPy – Used for discrete-event simulation of servers, 
+requests, and load balancing operations. 
+ NumPy – Used to perform numerical calculations and analyze 
+performance metrics. 
+ Matplotlib – Used to create graphs and visual representations 
+of simulation results. 
+ Tkinter (GUI) – Used to design an interactive graphical user 
+interface for the project. 
+ VS Code – Used as the development environment for 
+programming 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+10 | P a g e 
+ 
+EXPECTED OUTCOMES 
+ 
+The outcomes expected to be achieved after developing this project 
+are:  
+ Comparative analysis of different load balancing algorithms. 
+ Identification of the algorithm with the best response time. 
+ Evaluation of throughput under varying workloads. 
+ Analysis of server utilization patterns. 
+ Visualization of performance results through graphs. 
+ Better understanding of distributed system performance optimization. 
+ 
+ 
+REFERENCES 
+ 
+[1] Raj Jain, The Art of Computer Systems Performance Analysis, Wiley. 
+[2] Andrew S. Tanenbaum, Distributed Systems: Principles and 
+Paradigms. 
+[3] SimPy Documentation. 
+[4] Python Software Foundation Documentation. 
+[5] Ian Foster, Cloud Computing and Distributed Systems. 
