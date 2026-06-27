@@ -1,7 +1,7 @@
 # Performance Analysis of Load Balancers
 
 A discrete-event simulation tool for evaluating and comparing load balancing algorithms.
-Built as part of the Performance Engineering Lab [17M15CS122] project.
+Built as part of the Performance Engineering Lab project.
 
 ## Features
 
@@ -70,3 +70,7 @@ python main.py
 - **Throughput**: Requests processed per second
 - **Server Utilization**: Percentage of time each server is busy
 - **Load Distribution Efficiency**: Evenness of request distribution
+
+  ## Built By SABEEH AHSAN
+  Software Developer
+  JIIT SECTOR 62 NOIDA
